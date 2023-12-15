@@ -6,3 +6,9 @@ void inicializarPaciente(Paciente* paciente, char* sus, int idade, int prioridad
     paciente->idade = idade;
     paciente->grupoPrioridade = prioridade;
 }
+
+void imprimirPaciente(const Paciente* paciente) {
+    printf("Numero SUS: %s - ", paciente->numeroSUS);
+    printf("Idade: %d - ", paciente->idade);
+    printf("Grupo de Prioridade: %d\n\n", paciente->grupoPrioridade);
+}
