@@ -2,7 +2,7 @@
 Este repositório abriga a implementação do Exercício Avaliativo 6 da disciplina de Estrutura de Dados, sob instrução do professor Ednilson Rossi, no curso de Tecnologia em Sistemas para Internet do Instituto Federal de São Paulo.
 
 ## SOBRE
-O exercício consiste em um sistema que simula o atendimento de vacinação do SUS. Sendo implementado em linguagem C.
+O exercício consiste em um sistema que simula o atendimento de vacinação do SUS. Implementado em linguagem C.
 
 ## AUTORAS DO PROJETO
 *  [Ariane Sanga](https://github.com/ArianeSanga) | arianesanga4@icloud.com
