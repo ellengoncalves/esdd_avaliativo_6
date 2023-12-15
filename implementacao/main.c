@@ -1,11 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 #include "paciente.h"
 #include "fila.h"
 #include "pilha.h"
-
-#pragma warning(disable : 4996) //_CRT_SECURE_NO_WARNINGS
 
 int main() {
 	int opcaoMenu;
@@ -35,53 +34,41 @@ int main() {
 			scanf("%d", &grupoPrioridade);
 
 			inicializarPaciente(&paciente, numeroSus, idade, grupoPrioridade);
-
 			enfileirar(&fila, paciente);
 
-
 			printf("\nO paciente foi adicionado em uma posicao da fila de acordo com sua prioridade\n");
-		}
-		else if(opcaoMenu == 2) {
+		}else if(opcaoMenu == 2){
 			Paciente paciente;
 
-			if (desenfileirar(&fila, &paciente) == 1) {
-
+			if(desenfileirar(&fila, &paciente) == 1){
 				empilhar(&pilha, paciente);
-
-
 				printf("\nO paciente foi adicionado a lista de vacinados\n");
-			}
-			else {
+			}else{
 				printf("\nNao ha nenhum paciente a vacinar\n");
 			}
 		}
-		else if (opcaoMenu == 3) {
+		else if(opcaoMenu == 3){
 			if (!estaVazia(&fila)) {
 				printf("\nLista de pacientes para vacinar:\n\n");
 				imprimirFila(&fila);
-			}
-			else {
+			}else{
 				printf("\nNao ha nenhum paciente a vacinar\n");
 			}
-		}
-		else if (opcaoMenu == 4) {
-			if (pilhaVazia(&pilha) == 1) {
+		}else if(opcaoMenu == 4){
+			if(pilhaVazia(&pilha) == 1){
 				printf("\nNao ha nenhum paciente vacinado\n");
-			}
-			else {
+			}else{
 				printf("\nLista de pacientes vacinados:\n\n");
 				imprimirPilha(&pilha);
 			}
 			
-		}
-		else if (opcaoMenu == 5) {
+		}else if(opcaoMenu == 5){
 			Paciente paciente;
 
-			if (desempilhar(&pilha, &paciente) == 1) {
+			if(desempilhar(&pilha, &paciente) == 1){
 				printf("\nRemovido da lista de vacinados: ");
 				imprimirPaciente(&paciente);
-			}
-			else {
+			}else{
 				printf("\nNao ha nenhum paciente vacinado\n");
 			}
 		}

@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/Ronaldo/Desktop/ControleDeVacinacao/esdd_avaliativo_6/implementacao",
-      "program": "c:/Users/Ronaldo/Desktop/ControleDeVacinacao/esdd_avaliativo_6/implementacao/build/Debug/outDebug",
+      "cwd": "c:/Users/Ronaldo/Desktop/ControleDeVacinacao/esdd_avaliativo_6-1/implementacao",
+      "program": "c:/Users/Ronaldo/Desktop/ControleDeVacinacao/esdd_avaliativo_6-1/implementacao/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
