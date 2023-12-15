@@ -3,4 +3,4 @@
 ### Infos
 * Autoras: 
 - Ariane Sanga |
-- Ellen Gonçalves |  
+- Ellen Gonçalves |
