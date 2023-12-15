@@ -21,15 +21,28 @@ O projeto como um todo foi construído usando o conceito de Tipo Abstrato de Dad
 #### 1. Baixar/Clonar
 Primeiramente, é necessário que você baixe ou clone o repositório para rodar :)
 #### 2. Compilar
+
 * Windows
+  ```bash
   gcc *.c -o nome.exe
+  ```
+  
 * Linux
+  ```bash
   gcc *.c -o nome
+  ```
+  
 #### 3. Executar
+
 * Windows
+  ```bash
   ./nome.exe
+  ```
+  
 * Linux
+  ```bash
   ./nome
+  ```
 
 ### SCREENSHOTS DO SISTEMA
 
