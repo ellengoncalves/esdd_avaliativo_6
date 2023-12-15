@@ -4,12 +4,12 @@ Este repositório abriga a implementação do Exercício Avaliativo 6 da discipl
 ## SOBRE
 O exercício consiste em um sistema que simula o atendimento de vacinação do SUS. Implementado em linguagem C.
 
-## DESCRIÇÃO DO PROJETO
-O projeto como um todo foi construído usando o conceito de Tipo Abstrato de Dados (TAD). Dentro desse conceito utilizamos estruturas como Pilha, Fila, Lista Encadeada. Além disso, criamos outro pacote para representar coisas específicas do sistema, o TAD Paciente.
-
 ## AUTORAS DO PROJETO
 *  [Ariane Sanga](https://github.com/ArianeSanga) | arianesanga4@icloud.com
 *  [Ellen Pinheiro](https://github.com/ellengoncalves) | ellenpingon@gmail.com
+
+## DESCRIÇÃO DO PROJETO
+O projeto como um todo foi construído usando o conceito de Tipo Abstrato de Dados (TAD). Dentro desse conceito utilizamos estruturas como Pilha, Fila, Lista Encadeada. Além disso, criamos outro pacote para representar coisas específicas do sistema, o TAD Paciente.
 
 ## SCREENSHOTS DO SISTEMA
 
