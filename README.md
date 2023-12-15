@@ -46,3 +46,10 @@ Primeiramente, é necessário que você baixe ou clone o repositório para rodar
 
 ### SCREENSHOTS DO SISTEMA
 
+![image](https://github.com/ellengoncalves/esdd_avaliativo_6/assets/141193456/fc1f3f37-91fc-4505-8618-4baf569c6cf9)
+
+![image](https://github.com/ellengoncalves/esdd_avaliativo_6/assets/141193456/3f311171-7f82-4204-85ad-225351095196)
+
+![image](https://github.com/ellengoncalves/esdd_avaliativo_6/assets/141193456/c2e2621f-a120-47af-aed4-cf0ca53e2ac8)
+
+![image](https://github.com/ellengoncalves/esdd_avaliativo_6/assets/141193456/1f131e43-b95f-4f94-85dc-f6c498e79c71)
